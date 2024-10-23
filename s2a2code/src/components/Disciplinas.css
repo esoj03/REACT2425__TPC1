@@ -1,0 +1,99 @@
+.disciplinas {
+  padding-top: 2rem;
+  background-color: rgb(31, 31, 31);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+.card {
+  background-color: #1e1e1e; 
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+.disciplina-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.disciplina-item .disciplina-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1150e2;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.disciplina-item .disciplina-data p {
+  margin: 0;
+  color: white;
+}
+
+.disciplina-item .disciplina-nome {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  margin-left: 1rem;
+}
+
+.disciplina-item .disciplina-valorNota {
+  font-size: 1.5rem;
+  color: white;
+}
+
+
+.filtro-ano {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.filtro-ano label {
+  color: white;
+  font-weight: bold;
+}
+
+.filtro-ano select {
+  background-color: #1150e2;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.filtro-ano select:hover {
+  background-color: #00255d;
+}
+
+.filtro{
+  position: relative;
+  top: 70px;
+  vertical-align: inherit;
+  
+}
+
+.filtro label{
+  color: white;
+  margin-right: 350px;
+}
