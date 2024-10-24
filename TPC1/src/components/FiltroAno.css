@@ -1,0 +1,40 @@
+﻿.filtro-ano {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 12px;
+  }
+  
+  .filtro-ano label {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .filtro-ano select {
+    background-color: #1150e2;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .filtro-ano select:hover {
+    background-color: #00255d;
+  }
+  
+
+  .filtro-ano{
+    top: 70px;
+    vertical-align: inherit;
+    
+  }
+  
+  .filtro-ano label{
+    color: white;
+    margin-right: 350px;
+  }
